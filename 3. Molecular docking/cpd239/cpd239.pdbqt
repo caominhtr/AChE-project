@@ -1,0 +1,24 @@
+REMARK  Name = cpd239.pdb
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK    2  A    between atoms: C_3  and  N_4
+REMARK    3  A    between atoms: N_4  and  C_5
+REMARK    4  A    between atoms: N_4  and  C_6
+REMARK    5  A    between atoms: N_4  and  C_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1       1.000   0.000   0.000  0.00  0.00    +0.377 N 
+ATOM      2  C   UNL     1       2.000   0.000   0.000  0.00  0.00    -0.101 C 
+ATOM      3  C   UNL     1       1.000   1.000   0.000  0.00  0.00    -0.101 C 
+ATOM      4  C   UNL     1       0.000   0.000   0.000  0.00  0.00    -0.101 C 
+ENDROOT
+BRANCH   1   5
+ATOM      5  C   UNL     1       1.000  -1.000   0.000  0.00  0.00    -0.070 C 
+BRANCH   5   7
+ATOM      6  C   UNL     1      -1.384  -2.501   0.015  0.00  0.00    -0.104 C 
+ATOM      7  C   UNL     1      -0.047  -2.348   0.004  0.00  0.00    -0.107 C 
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+TORSDOF 2
