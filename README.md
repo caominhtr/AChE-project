@@ -5,4 +5,4 @@ by Cao-Minh Truong* and Denner E. dos Santos Silveira*
 
 *Correspondence: cao-minh.truong@etu.u-paris.fr , denner.evaristo-dos-santos-silveira@etu.u-paris.fr
 
-![](Virtual screening workflow.png)
+![]( Virtual screening workflow.png)
